@@ -53,7 +53,7 @@
                 </div>
                 </div>
             </div>
-            <div class="copyright">Copyright &copy; 2019-2029  版权所有 青ICP备326231234565号 </div>
+            <div class="copyright">Copyright &copy; 2019-2029  版权所有 微歌 </div>
             </div>
         </div>
     </div>
