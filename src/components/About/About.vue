@@ -27,7 +27,7 @@
 <style scoped>
 #about {
   position: relative;
-  padding: 100px 0;
+  padding: 3em 0;
 }
 .about-info {
     padding: 0 6em 5em 0;
@@ -63,5 +63,29 @@ p {
     display: block;
     max-width: 100%;
     height: auto;
+}
+@media screen and (max-width: 768px) {
+  .col-md-6 {
+    width: 100%;
+  }
+  .about-info {
+    padding: 0 0 2em 0;
+  }
+}
+@media screen and (max-width: 478px) {
+  .col-md-6 {
+    width: 100%;
+  }
+  .about-info {
+    padding: 0 0 2em 0;
+  }
+}
+@media screen and (max-width: 375px) {
+  .col-md-6 {
+    width: 100%;
+  }
+  .about-info {
+    padding: 0 0 2em 0;
+  }
 }
 </style>

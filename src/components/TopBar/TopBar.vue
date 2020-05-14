@@ -39,7 +39,7 @@
     display: inline-block;
     padding: 6px 12px;
     margin-bottom: 0;
-    font-size: 14px;
+    font-size: 1em;
     font-weight: 400;
     line-height: 1.42857143;
     text-align: center;
@@ -78,18 +78,18 @@
   position: relative;
 }
 .container h3 {
-    color: #f9f9f9;
-    font-size: 14px;
-    line-height: inherit;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    margin: 0;
+  color: #f9f9f9;
+  font-size: 1em;
+  line-height: inherit;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin: 0;
 }
 .container h1 {
   color: #ffffff;
   padding-bottom: 30px;
   font-size: 3em;
-  line-height: 50px;
+  line-height: 1.5em;
   font-weight: bold;
 }
 .logo {
@@ -98,9 +98,32 @@
   left: 0;
 }
 .logo h1 {
-  font-size: 3em;
-  font-family: 'Rototo Slab', serif;
+  font-size: 2em;
   color: #ff5d56;
   text-shadow: 1px 1px 0px #999;
+}
+@media screen and (max-width: 768px) {
+  .logo {
+    top: -200px;
+  }
+  .col-md-8 {
+  width: 100%;
+}
+}
+@media screen and (max-width: 411px) {
+  .logo {
+    top: -180px;
+  }
+  .col-md-8 {
+  width: 100%;
+}
+}
+@media screen and (max-width: 375px) {
+  .logo {
+    top: -180px;
+  }
+  .col-md-8 {
+  width: 100%;
+}
 }
 </style>

@@ -86,7 +86,7 @@ export default {
 .n3 {
   background: #f9f9f9;
   text-align: center;
-  padding: 100px 0;
+  padding: 3em 0;
 }
 .n3-title {
   color: #353535;
@@ -102,7 +102,8 @@ export default {
 }
 .n3-bg {
   position: relative;
-  width: 286px;
+  /* width: 286px; */
+  width: 100%;
   height: 400px;
   display: block;
   margin: auto;
@@ -112,7 +113,8 @@ export default {
 }
 .n3-masking {
   position: absolute;
-  width: 286px;
+  /* width: 286px; */
+  width: 100%;
   height: 400px;
   transform: translateY(350px);
   background-color: rgba(0, 0, 0, 0.7);
@@ -127,7 +129,9 @@ export default {
   clear: both;
   display: block;
 }
+
 .n3-content ul {
+  overflow: hidden;
   margin: 20px auto;
   width: 1280px;
 }
@@ -152,6 +156,98 @@ export default {
   color: #ffffff;
   line-height: 25px;
   margin: 10px 20px;
+}
+@media screen and (max-width: 1300px) {
+  .n3-content ul {
+    width: 1280px;
+  }
+  .n3-bg {
+    height: 400px;
+  }
+  .n3-masking {
+    height: 400px;
+  }
+  .n3-content ul li {
+    width: 308px;
+  }
+}
+@media screen and (max-width: 1199px) {
+  .n3-content ul {
+    width: 1000px;
+  }
+  .n3-content ul li {
+    width: 238px;
+  }
+  .n3-bg {
+    height: 308px;
+  }
+  .n3-masking {
+    height: 308px;
+    transform: translateY(250px);
+  }
+}
+@media screen and (max-width: 960px) {
+  .n3-content ul {
+    width: 800px;
+  }
+  .n3-content ul li {
+    width: 376px;
+  }
+  .n3-bg {
+    height: 488px;
+  }
+  .n3-masking {
+    height: 488px;
+    transform: translateY(430px);
+  }
+}
+@media screen and (max-width: 768px) {
+  .n3-content ul {
+    width: 700px;
+  }
+  .n3-content ul li {
+    width: 326px;
+    margin: 0 12px 12px
+  }
+  .n3-bg {
+    height: 422px;
+  }
+  .n3-masking {
+    height: 422px;
+    transform: translateY(365px);
+  }
+}
+@media screen and (max-width: 478px) {
+  .n3-content ul {
+    width: 375px;
+  }
+  .n3-content ul li {
+    width: 325px;
+    margin: 0 25px 12px;
+  }
+  .n3-bg {
+    height: 422px;
+  }
+  .n3-masking {
+    height: 422px;
+    transform: translateY(365px);
+  }
+}
+@media screen and (max-width: 375px) {
+  .n3-content ul {
+    width: 375px;
+  }
+  .n3-content ul li {
+    width: 325px;
+    margin: 0 25px 12px;
+  }
+  .n3-bg {
+    height: 422px;
+  }
+  .n3-masking {
+    height: 422px;
+    transform: translateY(365px);
+  }
 }
 </style>
 

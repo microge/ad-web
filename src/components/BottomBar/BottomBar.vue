@@ -5,8 +5,8 @@
     style="background-position: 0% -224.875px;"
   >
     <div class="container">
-      <el-row :gutter="40">
-        <el-col :span="6">
+      <el-row>
+        <el-col :span="6" :xs="24" :sm="12">
           <div class="footer-info">
             <div class="section-title">
               <h2
@@ -29,7 +29,7 @@
           </div>
         </el-col>
 
-        <el-col :span="6">
+        <el-col :span="6" :xs="24" :sm="12">
           <div class="footer-info">
             <div class="section-title">
               <h2
@@ -52,7 +52,7 @@
           </div>
         </el-col>
 
-        <el-col :span="8">
+        <el-col :span="8" :xs="24" :sm="12">
           <div class="footer-info footer-open-hour">
             <div class="section-title">
               <h2
@@ -79,7 +79,7 @@
           </div>
         </el-col>
 
-        <el-col :span="4">
+        <el-col :span="4" :xs="24" :sm="12">
           <ul
             class="wow fadeInUp social-icon animated"
             data-wow-delay="0.4s"
@@ -104,11 +104,7 @@
             data-wow-delay="0.8s"
             style="visibility: visible; animation-delay: 0.8s; animation-name: fadeInUp;"
           >
-            <p>
-              <br />Copyright © 2019 Your Company Name
-              <br />
-              <br />Design: Microge
-            </p>
+            <p>Copyright © 2019 Your Company Name<br />Design: Microge</p>
           </div>
         </el-col>
       </el-row>
@@ -118,10 +114,9 @@
 <style scoped>
 footer {
     border-top: 1px solid rgba(0,0,0,0.05);
-    padding: 20px 0;
 }
 .container {
-    padding: 60px 0
+    padding: 2em 0
 }
 .social-icon {
     position: relative;
@@ -148,7 +143,7 @@ footer a, footer p {
     background-size: cover;
     border-radius: 20px;
     margin-top: 0;
-    padding: 40px 0 40px 80px;
+    padding: 40px 0 40px 40px;
     overflow: hidden;
     position: relative;
     z-index: 22;

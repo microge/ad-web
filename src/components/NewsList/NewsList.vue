@@ -3,30 +3,10 @@
     <h1 class="news-title">{{title}}</h1>
     <p class="news-info">{{info}}</p>
     <div class="container">
-      <el-row>
-        <el-col :span="12">
-          <div class="news-left">
-            <div class="col-bottom">
-              <h6>Claritas est etiam</h6>
-              <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem</p>
-              <a href="#" class="more">MORE</a>
-            </div>
-            <div class="col-bottom">
-              <h6>Claritas est etiam</h6>
-              <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem</p>
-              <a href="#" class="more">MORE</a>
-            </div>
-            <div class="col-bottom">
-              <h6>Claritas est etiam</h6>
-              <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem</p>
-              <a href="#" class="more">MORE</a>
-            </div>
-          </div>
-        </el-col>
-        <el-col :span="12">
+      <div class="news-wrap" id="news1">
           <div class="news-right">
             <div class="col-news-top">
-              <a href="#" class="date-in">
+              <a href="#news1" class="date-in">
                 <img class="img-responsive mix-in" src="../../assets/images/03/pc.jpg" alt />
                 <div class="month-in">
                   <label>
@@ -35,10 +15,20 @@
                   </label>
                 </div>
               </a>
-              <div class="clearfix"></div>
             </div>
+          </div>
+          <div class="news-left">
+            <div class="col-bottom">
+              <h6>Claritas est etiam</h6>
+              <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem</p>
+              <!-- <a href="#" class="more">MORE</a> -->
+            </div>
+          </div>
+      </div>
+      <div class="news-wrap" id="news2">
+          <div class="news-right">
             <div class="col-news-top">
-              <a href="#" class="date-in">
+              <a href="#news2" class="date-in">
                 <img class="img-responsive mix-in" src="../../assets/images/03/pc1.jpg" alt />
                 <div class="month-in">
                   <label>
@@ -47,10 +37,20 @@
                   </label>
                 </div>
               </a>
-              <div class="clearfix"></div>
             </div>
+          </div>
+          <div class="news-left">
+            <div class="col-bottom">
+              <h6>Claritas est etiam</h6>
+              <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem</p>
+              <!-- <a href="#" class="more">MORE</a> -->
+            </div>
+          </div>
+      </div>
+      <div class="news-wrap" id="news3">
+          <div class="news-right">
             <div class="col-news-top">
-              <a href="#" class="date-in">
+              <a href="#news3" class="date-in">
                 <img class="img-responsive mix-in" src="../../assets/images/03/pc2.jpg" alt />
                 <div class="month-in">
                   <label>
@@ -59,11 +59,16 @@
                   </label>
                 </div>
               </a>
-              <div class="clearfix"></div>
             </div>
           </div>
-        </el-col>
-      </el-row>
+          <div class="news-left">
+            <div class="col-bottom">
+              <h6>Claritas est etiam</h6>
+              <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem</p>
+              <!-- <a href="#" class="more">MORE</a> -->
+            </div>
+          </div>
+      </div>
     </div>
   </div>
 </template>
@@ -80,7 +85,7 @@ export default {
 </script>
 <style scoped>
 #news-list {
-  padding: 100px 0;
+  padding: 3em 0;
   background: #f9f9f9;
 }
 .news-title {
@@ -94,17 +99,24 @@ export default {
   font-size: 10px;
   letter-spacing: 1px;
   text-transform: uppercase;
-  margin: 0 0 60px;
+  margin: 0 0 2em;
   text-align: center;
 }
+.news-wrap {
+  overflow: hidden;
+}
 .news-left {
-  padding-right: 20px;
+  float: left;
+  width: 48%;
+  padding-right: 2%;
 }
 .news-right {
-  padding-left: 20px;
+  float: right;
+  width: 48%;
+  padding-left: 2%;
 }
 .col-bottom {
-  padding: 0 0 2em 0;
+  padding: 0 0 0 0;
 }
 .col-bottom h6 {
   margin: 0;
@@ -112,9 +124,9 @@ export default {
   color: #000;
 }
 .col-bottom p {
-  margin: 1.2em 0 0.5em;
+  margin: 1em 0 0.5em;
   font-size: 1em;
-  line-height: 1.9em;
+  line-height: 1.5em;
   color: #999;
 }
 a.more {
@@ -133,7 +145,7 @@ a.more:hover {
 }
 .img-responsive {
     display: block;
-    max-width: 100%;
+    width: 100%;
     height: auto;
 }
 .col-news-top .date-in .month-in {
@@ -172,5 +184,20 @@ a.more:hover {
 .col-news-top .date-in .month-in label .month {
     font-size: 14px;
     line-height: 14px;
+}
+@media screen and (max-width: 768px) {
+  .news-left {
+  float: none;
+  width: 100%;
+  padding-right: 0;
+}
+.news-right {
+  float: none;
+  width: 100%;
+  padding-left: 0;
+}
+.col-bottom {
+  padding: 0 0 2em 0;
+}
 }
 </style>

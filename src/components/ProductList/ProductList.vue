@@ -12,7 +12,7 @@
         </div>
       </div>
 
-      <div class="col-md-4 col-sm-6">
+      <div class="col-md-4">
         <!-- MENU THUMB -->
         <div class="menu-thumb">
           <img src="../../assets/images/03/menu-image1.jpg" class="img-responsive" alt />
@@ -29,7 +29,7 @@
         </div>
       </div>
 
-      <div class="col-md-4 col-sm-6">
+      <div class="col-md-4">
         <!-- MENU THUMB -->
         <div class="menu-thumb">
           <img src="../../assets/images/03/menu-image2.jpg" class="img-responsive" alt />
@@ -46,7 +46,7 @@
         </div>
       </div>
 
-      <div class="col-md-4 col-sm-6">
+      <div class="col-md-4">
         <!-- MENU THUMB -->
         <div class="menu-thumb">
           <img src="../../assets/images/03/menu-image3.jpg" class="img-responsive" alt />
@@ -63,7 +63,7 @@
         </div>
       </div>
 
-      <div class="col-md-4 col-sm-6">
+      <div class="col-md-4">
         <!-- MENU THUMB -->
         <div class="menu-thumb">
           <img src="../../assets/images/03/menu-image4.jpg" class="img-responsive" alt />
@@ -80,7 +80,7 @@
         </div>
       </div>
 
-      <div class="col-md-4 col-sm-6">
+      <div class="col-md-4">
         <!-- MENU THUMB -->
         <div class="menu-thumb">
           <img src="../../assets/images/03/menu-image5.jpg" class="img-responsive" alt />
@@ -97,7 +97,7 @@
         </div>
       </div>
 
-      <div class="col-md-4 col-sm-6">
+      <div class="col-md-4">
         <!-- MENU THUMB -->
         <div class="menu-thumb">
           <img src="../../assets/images/03/menu-image6.jpg" class="img-responsive" alt />
@@ -119,7 +119,7 @@
 
 <style scoped>
 #menu {
-  padding: 100px 0 0;
+  padding: 3em 0 0;
 }
 .row {
      overflow: hidden;
@@ -138,7 +138,7 @@
   letter-spacing: 1px;
   text-transform: uppercase;
   margin-top: 0;
-  margin-bottom: 60px;
+  margin-bottom: 2em;
 }
 .col-md-4 {
   float: left;
@@ -167,7 +167,7 @@
   right: 0px;
   bottom: 0px;
   text-align: left;
-  padding: 25px 30px;
+  padding: 1.5em 1.5em;
   transition: 0.5s 0.2s;
 }
 .menu-thumb:hover .menu-info {
@@ -202,5 +202,20 @@
 .menu-thumb:hover .menu-info span {
   transform: translateY(0px);
   opacity: 1;
+}
+@media screen and (max-width: 768px) {
+  .col-md-4 {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 478px) {
+  .col-md-4 {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 375px) {
+  .col-md-4 {
+    width: 100%;
+  }
 }
 </style>
