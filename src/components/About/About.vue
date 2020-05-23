@@ -6,17 +6,18 @@
         <div class="about-info">
           <div class="section-title wow fadeInUp animated" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
             <h4>Read our story</h4>
-            <h2>We've been Making The Delicious Foods Since 1999</h2>
+            <h2>25 years experience in faucet and bathroom accessory. Over 500,000 deliverables per month. Products are exporting to more than 60 countrys.</h2>
           </div>
           <div class="wow fadeInUp animated" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">
-            <p>Fusce hendrerit malesuada lacinia. Donec semper semper sem vitae malesuada. Proin scelerisque risus et ipsum semper molestie sed in nisi. Ut rhoncus congue lectus, rhoncus venenatis leo malesuada id.</p>
-            <p>Sed elementum vel felis sed scelerisque. In arcu diam, sollicitudin eu nibh ac, posuere tristique magna. You can use this template for your cafe or restaurant website. Please tell your friends about templatemo. Thank you.</p>
+            <p>Our factory can laser print customer’s logo on the product with the permission from customers. Customers need to provide us a logo usage authorization letter to allow.</p>
+            <p>The staffs in our R&D department are well experienced in the faucet industry, with more than 5 to 10 years experience. Every year, we will launch 2 to 3 new series to.</p>
+            <p>FARLO develops process - oriented QMS to identify and meet needs of customer requirement and expectation in an effective and efficient manner to achieve.</p>
           </div>
         </div>
       </div>
       <div class="col-md-6">
         <div class="wow fadeInUp about-image animated" data-wow-delay="0.6s" style="visibility: visible; animation-delay: 0.6s; animation-name: fadeInUp;">
-          <img src="../../assets/images/03/about-image.jpg" class="img-responsive" alt="">
+          <img src="../../assets/images/01/about.jpg" class="img-responsive" alt="">
         </div>
       </div>
     </div>

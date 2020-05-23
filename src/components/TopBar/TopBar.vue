@@ -5,12 +5,12 @@
       <div class="logo">
         <h1>Microge</h1>
       </div>
-      <div class="col-md-8">
+      <!-- <div class="col-md-8">
         <h3>Your Perfect Breakfast</h3>
         <h1>The best dinning quality can be here too!</h1>
         <a href="/" class="section-btn btn btn-default smoothScroll">Discover menu</a>
-        <!-- <el-button type="danger">危险按钮</el-button> -->
-      </div>
+        <el-button type="danger">危险按钮</el-button>
+      </div> -->
     </div>
   </div>
 </div> 
@@ -28,7 +28,7 @@
 }
 .top-bg {
   width: 100%;
-  background-image: url(../../assets/images/03/slider-image1.jpg);
+  background-image: url(../../assets/images/01/bg.jpg);
   background-position: inherit;
   background-repeat: no-repeat;
   background-attachment: local;
@@ -76,6 +76,7 @@
 }
 .container {
   position: relative;
+  min-height: 218px;
 }
 .container h3 {
   color: #f9f9f9;
