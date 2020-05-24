@@ -137,17 +137,21 @@ export default {
 }
 .n3-content ul li {
   float: left;
-  width: 286px;
+  width: 308px;
   margin: 0 6px 12px;
 }
 .n3-caption {
   position: relative;
-  display: inline-block;
+  display: block;
   font-size: 18px;
   color: #ffffff;
   line-height: 25px;
   margin-top: 15px;
   margin-bottom: 10px;
+  overflow: hidden;
+  height: 25px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
 .n3-desc {
   position: relative;
