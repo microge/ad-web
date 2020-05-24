@@ -9,9 +9,8 @@
             <h2>25 years experience in faucet and bathroom accessory. Over 500,000 deliverables per month. Products are exporting to more than 60 countrys.</h2>
           </div>
           <div class="wow fadeInUp animated" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">
-            <p>Our factory can laser print customer’s logo on the product with the permission from customers. Customers need to provide us a logo usage authorization letter to allow.</p>
-            <p>The staffs in our R&D department are well experienced in the faucet industry, with more than 5 to 10 years experience. Every year, we will launch 2 to 3 new series to.</p>
-            <p>FARLO develops process - oriented QMS to identify and meet needs of customer requirement and expectation in an effective and efficient manner to achieve.</p>
+            <p>As a famous sanitary ware manufacture in China, FAAO which is founded in 2001 with whole complete production process including Foundry, Machinery, Polishing, Assembly offers a diverse selection of thoughtfully designed kitchen and bath faucets, shower sets, bathroom accessories for residential and commercial applications each delivering the best possible combination of meaningful innovation, useful features, and good cost performance.</p>
+            <p>With 15 year professional experience, FAAO products are exporting to Europe, South America, North America, Middle East, South Asia, Africa and other places..</p>
           </div>
         </div>
       </div>

@@ -7,8 +7,8 @@
           data-wow-delay="0.1s"
           style="visibility: visible; animation-delay: 0.1s; animation-name: fadeInUp;"
         >
-          <h2>Our Menus</h2>
-          <h4>Tea Time &amp; Dining</h4>
+          <h2>Product Categories</h2>
+          <h4>Categories &amp; Count</h4>
         </div>
       </div>
 
@@ -19,11 +19,11 @@
 
           <div class="menu-info">
             <div class="menu-item">
-              <h3>American Breakfast</h3>
-              <p>Tomato / Eggs / Sausage</p>
+              <h3>Kitchen And Bath Faucet</h3>
+              <p>Basin Faucet / Bidet Faucet / Kitchen Faucet / Bathtub faucet / Shower faucet</p>
             </div>
             <div class="menu-price">
-              <span>$25</span>
+              <span>1300</span>
             </div>
           </div>
         </div>
@@ -175,6 +175,7 @@
 }
 .menu-info .menu-item {
   float: left;
+  width: 70%;
 }
 .menu-thumb .menu-info h3,
 .menu-thumb .menu-info p,

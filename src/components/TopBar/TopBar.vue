@@ -3,7 +3,7 @@
   <div class="caption">
     <div class="container">
       <div class="logo">
-        <h1>Microge</h1>
+        <h1><img src="../../assets/images/01/logo.png" alt="FAAO"></h1>
       </div>
       <!-- <div class="col-md-8">
         <h3>Your Perfect Breakfast</h3>
@@ -88,10 +88,15 @@
 }
 .container h1 {
   color: #ffffff;
-  padding-bottom: 30px;
   font-size: 3em;
   line-height: 1.5em;
   font-weight: bold;
+  background: #333;
+}
+.container h1 img {
+  width: 150px;
+  height: 64.25px;
+  vertical-align: top;
 }
 .logo {
   position: absolute;
