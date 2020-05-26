@@ -9,8 +9,7 @@
             <h2>25 years experience in faucet and bathroom accessory. Over 500,000 deliverables per month. Products are exporting to more than 60 countrys.</h2>
           </div>
           <div class="wow fadeInUp animated" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">
-            <p>As a famous sanitary ware manufacture in China, FAAO which is founded in 2001 with whole complete production process including Foundry, Machinery, Polishing, Assembly offers a diverse selection of thoughtfully designed kitchen and bath faucets, shower sets, bathroom accessories for residential and commercial applications each delivering the best possible combination of meaningful innovation, useful features, and good cost performance.</p>
-            <p>With 15 year professional experience, FAAO products are exporting to Europe, South America, North America, Middle East, South Asia, Africa and other places..</p>
+            <p>Elegantly simple, FAAO Bathroom Accessories' graceful curves and contours flow as beautifully as the faucet's water stream, creating a transitional style that spans a variety of decorating trends. </p>
           </div>
         </div>
       </div>

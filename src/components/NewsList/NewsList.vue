@@ -19,8 +19,8 @@
           </div>
           <div class="news-left">
             <div class="col-bottom">
-              <h6>Claritas est etiam</h6>
-              <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem</p>
+              <h6>Come from Germany</h6>
+              <p>In a factory packed with kit from Germany and China, slabs of rubber and bags of carbon black are turned into tyres.In a factory packed with kit from Germany and China, slabs of rubber and bags of carbon black are turned into tyres.In a factory packed with kit from Germany and China, slabs of rubber and bags of carbon black are turned into tyres.In a factory packed with kit from Germany and China, slabs of rubber and bags of carbon black are turned into tyres.</p>
               <!-- <a href="#" class="more">MORE</a> -->
             </div>
           </div>
@@ -41,8 +41,8 @@
           </div>
           <div class="news-left">
             <div class="col-bottom">
-              <h6>Claritas est etiam</h6>
-              <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem</p>
+              <h6>Come from Russia</h6>
+              <p>We have a large number of users from Russia, favored by women. We have a large number of users from Russia, favored by women. We have a large number of users from Russia, favored by women. We have a large number of users from Russia, favored by women. users from Russia, favored by women. We have a large number of users from Russia, favored by women. We have a large number of users from Russia, favored by women.</p>
               <!-- <a href="#" class="more">MORE</a> -->
             </div>
           </div>
@@ -63,8 +63,8 @@
           </div>
           <div class="news-left">
             <div class="col-bottom">
-              <h6>Claritas est etiam</h6>
-              <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem</p>
+              <h6>Come from Australia</h6>
+              <p>I want to pay tribute to the excellent leadership of chairs and co-chairs from three Member States, Australia, Mexico, and Norway. I want to pay tribute to the excellent leadership of chairs and co-chairs from three Member States, Australia, Mexico, and Norway. I want to pay tribute to the excellent leadership of chairs and co-chairs from three Member States, Australia, Mexico, and Norway.</p>
               <!-- <a href="#" class="more">MORE</a> -->
             </div>
           </div>
@@ -77,8 +77,8 @@ export default {
   name: "NewsList",
   data() {
     return {
-      title: "News",
-      info: "Since 1999"
+      title: "OUR costomer",
+      info: "welcome to our store"
     };
   }
 };

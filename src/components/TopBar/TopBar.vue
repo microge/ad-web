@@ -29,7 +29,7 @@
 .top-bg {
   width: 100%;
   background-image: url(../../assets/images/01/bg.jpg);
-  background-position: inherit;
+  background-position: 100% 70%;
   background-repeat: no-repeat;
   background-attachment: local;
   background-size: cover;

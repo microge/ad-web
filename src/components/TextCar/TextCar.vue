@@ -18,19 +18,19 @@ export default {
     return {
       content: [
         {
-          caption: "big data",
+          caption: "Can your factory print our brand on the product?",
           desc:
-            "This goal through the main line of document partners and other applications, to achieve the construction enterprise process standards controllable project remote management of multiple effective coordination needs.This goal through the main line of document partners and other applications, to achieve the construction enterprise process standards"
+            "Our factory can laser print customer’s logo on the product with the permission from customers. Customers need to provide us a logo usage authorization letter to allow."
         },
         {
-          caption: "cloud computing",
+          caption: "Does your factory have the design and development capabilities, we need the customized products?",
           desc:
-            "This goal through the main line of document partners and other applications, to achieve the construction enterprise process standards controllable project remote management of multiple effective coordination needs.This goal through the main line of document partners and other applications"
+            "The staffs in our R&D department are well experienced in the faucet industry, with more than 5 to 10 years experience. Every year, we will launch 2 to 3 new series to keep out customers in a competitive stage.  "
         },
         {
-          caption: "artificial intelligence (AI)",
+          caption: "How is your production management and quality control system?",
           desc:
-            "This goal through the main line of document partners and other applications, to achieve the construction enterprise process standards controllable project remote management of multiple effective coordination needs.This goal through the main line of document "
+            "FARLO develops process - oriented QMS to identify and meet needs of customer requirement and expectation in an effective and efficient manner to achieve competitive advantage. All our product process follows up ISO9001: income quality checking, in process quality checking, final product quality checking. The strict implementation of ISO9001 assures to provide error – free products to our customers. We will show you these in our workshop during your visiting.mple."
         }
       ]
     };
@@ -41,7 +41,7 @@ export default {
 .items-wrap {
   padding: 50px 0;
   height: 300px;
-  background: url(../../assets/images/03/testimonial-bg.jpg) center center
+  background: url(../../assets/images/01/bg1.jpg) center center
     no-repeat;
   background-size: cover;
   position: relative;
