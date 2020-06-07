@@ -1,7 +1,7 @@
 <template>
   <div class="n6">
-    <h1 class="n6-title">{{title}}</h1>
-    <p class="n6-info">{{info}}</p>
+    <h1 class="n3-title">{{title}}</h1>
+    <p class="n3-info">{{info}}</p>
     <div class="n6-content">
       <ul>
         <li v-for="(item,index) of content" :key="index">
@@ -40,38 +40,38 @@ export default {
   data() {
     return {
       currentIndex: 0,
-      title: "服务领域",
-      info: "涉及医疗、工业、农业、互联网行业等等领域",
+      title: "Factory",
+      info: "Factory environment warehouse personnel",
       content: [
         {
-          title: "内容标题1",
-          imgUrl: require("../../assets/images/n6-bg1.png"),
+          title: "Building interior",
+          imgUrl: require("../../assets/images/01/ng01.jpg"),
           desc:
-            "基于百度天工 IOT 基础套件，垂直于智能家居方向，提供覆盖设备配网、注册、管理、控制、联动、OTA等全生命周期的一站式解决方案。帮助智能家居厂商更快捷地使用设备云服务，帮助企业节约人力成本，快速实现智能化转型"
+            "Total number of personnel: 319 Management personnel: 10 Quality control personnel: 26 sales personnel: 4 production personnel: 245 Purchasing personnel: 7 design personnel: 11 Others: 16"
         },
         {
-          title: "内容标题2",
-          imgUrl: require("../../assets/images/n6-bg2.png"),
+          title: "Factory information",
+          imgUrl: require("../../assets/images/01/ng02.jpg"),
           desc:
-            "天工能源物联网解决方案，是面向能源行业，融合百度智能云ABC技术和物联网技术的整体解决方案，由能源侧接入、天工物联网平台和能源应用三部分组成"
+            "Factory Address: No. 8, Dazhong Road, Haicheng Industrial Park, Longwan District, Wenzhou city, Zhejiang Province.Type of plant: Lease plant area: 12,000 square meters Validity: 2014-04-29-2051-02-05"
         },
         {
-          title: "内容标题3",
-          imgUrl: require("../../assets/images/n6-bg3.png"),
+          title: "Building interior",
+          imgUrl: require("../../assets/images/01/ng03.jpg"),
           desc:
-            "基于百度天工 IOT 基础套件，垂直于智能家居方向，提供覆盖设备配网、注册、管理、控制、联动、OTA等全生命周期的一站式解决方案。帮助智能家居厂商更快捷地使用设备云服务，帮助企业节约人力成本，快速实现智能化转型"
+            "Total number of personnel: 319 Management personnel: 10 Quality control personnel: 26 sales personnel: 4 production personnel: 245 Purchasing personnel: 7 design personnel: 11 Others: 16"
         },
         {
-          title: "内容标题4",
-          imgUrl: require("../../assets/images/n6-bg4.png"),
+          title: "Building interior",
+          imgUrl: require("../../assets/images/01/ng04.jpg"),
           desc:
-            "天工能源物联网解决方案，是面向能源行业，融合百度智能云ABC技术和物联网技术的整体解决方案，由能源侧接入、天工物联网平台和能源应用三部分组成"
+            "Total number of personnel: 319 Management personnel: 10 Quality control personnel: 26 sales personnel: 4 production personnel: 245 Purchasing personnel: 7 design personnel: 11 Others: 16"
         },
         {
-          title: "内容标题5",
-          imgUrl: require("../../assets/images/n6-bg5.png"),
+          title: "R&D capability",
+          imgUrl: require("../../assets/images/01/ng05.jpg"),
           desc:
-            "天工能源物联网解决方案，是面向能源行业，融合百度智能云ABC技术和物联网技术的整体解决方案，由能源侧接入、天工物联网平台和能源应用三部分组成"
+            "OEM mode: OEM design outsourcing: No annual average number of new models: 100 Average working years of designers: 3 1-5 years Number of development engineers: 11"
         }
       ]
     };
@@ -89,42 +89,22 @@ export default {
   text-align: center;
   background-size: cover;
   position: relative;
-  background: linear-gradient(-1deg, #3c4255 0, #2a2f40 98%);
-  height: 660px;
+  background: #f9f9f9;
+  height: 580px;
+  padding: 3em 0;
   color: #fff;
 }
-h1 {
-  position: relative;
-  display: inline-block;
-  margin: 50px auto 20px;
-  line-height: 30px;
-  padding: 0 30px;
-  font-weight: 400;
-  font-size: 28px;
-  color: #fff;
+.n3-title {
+  color: #353535;
+  font-size: 2em;
+  padding-bottom: 10px;
 }
-.n6-info {
-  color: #fff;
-}
-h1::before {
-  content: "";
-  width: 66px;
-  height: 13px;
-  background: url(../../assets/images/n1_r.png) no-repeat center;
-  background-size: contain;
-  position: absolute;
-  top: 5px;
-  left: 100%;
-}
-h1::after {
-  content: "";
-  width: 66px;
-  height: 13px;
-  background: url(../../assets/images/n1_l.png) no-repeat center;
-  background-size: contain;
-  position: absolute;
-  top: 5px;
-  right: 100%;
+.n3-info {
+  color: #bfbdbd;
+  font-size: 10px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-top: 0;
 }
 .n6-content ul {
   display: flex;
@@ -140,7 +120,7 @@ h1::after {
 }
 .n6-card {
   position: relative;
-  width: 200px;
+  width: 236px;
   height: 390px;
   text-align: center;
   transition: opacity, height, margin 0.3s linear;
@@ -164,6 +144,9 @@ h1::after {
   margin: auto;
   top: 20%;
 }
+.n6-current-caption h4 {
+  font-size: 16px;
+}
 .current {
   position: relative;
   width: 280px;
@@ -179,7 +162,7 @@ h1::after {
   top: 0;
   right: 0;
   bottom: 0;
-  opacity: 0.77;
+  opacity: 0.9;
   background: center;
   background-size: 100% 100%;
 }
@@ -198,7 +181,7 @@ h1::after {
   display: block;
   width: 30px;
   height: 4px;
-  background: #40acff;
+  background: #ce3232;
   margin: 16px auto 0 auto;
 }
 .n6-current-caption::after {
@@ -206,7 +189,7 @@ h1::after {
   display: block;
   width: 30px;
   height: 4px;
-  background: #40acff;
+  background: #ce3232;
   margin: 16px auto 0 auto;
 }
 .n6-caption-l::after {
@@ -214,7 +197,7 @@ h1::after {
   display: block;
   width: 30px;
   height: 2px;
-  background: #108ced;
+  background: #ce3232;
   margin: 16px auto 0 auto;
 }
 .n6-icon-l {
@@ -226,8 +209,8 @@ h1::after {
   top: 0;
   right: 0;
   bottom: 0;
-  opacity: 0.77;
-  background-image: linear-gradient(-180deg, #364167 0, #0a0b13 100%);
+  opacity: 0.3;
+  background-image: linear-gradient(-180deg, #080A09 0, #080A09 100%);
 }
 .current-desc {
   position: absolute;
@@ -235,7 +218,6 @@ h1::after {
   padding: 200px 30px;
   font-size: 14px;
   line-height: 24px;
-  font-size: 12px;
 }
 .n6-current-mask {
   position: absolute;
@@ -244,6 +226,6 @@ h1::after {
   right: 0;
   bottom: 0;
   opacity: 0.82;
-  background-image: linear-gradient(-180deg, #3f6493 0, #1c192b 100%);
+  background-image: linear-gradient(-180deg, #080A09 0, #080A09 100%);
 }
 </style>

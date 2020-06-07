@@ -7,7 +7,7 @@
           <div class="news-right">
             <div class="col-news-top">
               <a href="#news1" class="date-in">
-                <img class="img-responsive mix-in" src="../../assets/images/03/pc.jpg" alt />
+                <img class="img-responsive mix-in" src="../../assets/images/01/pc03.jpg" alt />
                 <div class="month-in">
                   <label>
                     <span class="day">10</span>
@@ -29,7 +29,7 @@
           <div class="news-right">
             <div class="col-news-top">
               <a href="#news2" class="date-in">
-                <img class="img-responsive mix-in" src="../../assets/images/03/pc1.jpg" alt />
+                <img class="img-responsive mix-in" src="../../assets/images/01/pc01.jpg" alt />
                 <div class="month-in">
                   <label>
                     <span class="day">15</span>
@@ -51,7 +51,7 @@
           <div class="news-right">
             <div class="col-news-top">
               <a href="#news3" class="date-in">
-                <img class="img-responsive mix-in" src="../../assets/images/03/pc2.jpg" alt />
+                <img class="img-responsive mix-in" src="../../assets/images/01/pc02.jpg" alt />
                 <div class="month-in">
                   <label>
                     <span class="day">08</span>
@@ -69,6 +69,139 @@
             </div>
           </div>
       </div>
+      <div class="news-wrap" v-bind:class="{ dsn: isDisplay}" id="news4">
+          <div class="news-right">
+            <div class="col-news-top">
+              <a href="#news3" class="date-in">
+                <img class="img-responsive mix-in" src="../../assets/images/01/pc04.jpg" alt />
+                <div class="month-in">
+                  <label>
+                    <span class="day">08</span>
+                    <span class="month">March</span>
+                  </label>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="news-left">
+            <div class="col-bottom">
+              <h6>Come from Australia</h6>
+              <p>I want to pay tribute to the excellent leadership of chairs and co-chairs from three Member States, Australia, Mexico, and Norway. I want to pay tribute to the excellent leadership of chairs and co-chairs from three Member States, Australia, Mexico, and Norway. I want to pay tribute to the excellent leadership of chairs and co-chairs from three Member States, Australia, Mexico, and Norway.</p>
+              <!-- <a href="#" class="more">MORE</a> -->
+            </div>
+          </div>
+      </div>
+      <div class="news-wrap" v-bind:class="{ dsn: isDisplay}" id="news5">
+          <div class="news-right">
+            <div class="col-news-top">
+              <a href="#news3" class="date-in">
+                <img class="img-responsive mix-in" src="../../assets/images/01/pc05.jpg" alt />
+                <div class="month-in">
+                  <label>
+                    <span class="day">08</span>
+                    <span class="month">March</span>
+                  </label>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="news-left">
+            <div class="col-bottom">
+              <h6>Come from Australia</h6>
+              <p>I want to pay tribute to the excellent leadership of chairs and co-chairs from three Member States, Australia, Mexico, and Norway. I want to pay tribute to the excellent leadership of chairs and co-chairs from three Member States, Australia, Mexico, and Norway. I want to pay tribute to the excellent leadership of chairs and co-chairs from three Member States, Australia, Mexico, and Norway.</p>
+              <!-- <a href="#" class="more">MORE</a> -->
+            </div>
+          </div>
+      </div>
+      <div class="news-wrap" v-bind:class="{ dsn: isDisplay}" id="news6">
+          <div class="news-right">
+            <div class="col-news-top">
+              <a href="#news3" class="date-in">
+                <img class="img-responsive mix-in" src="../../assets/images/01/pc06.jpg" alt />
+                <div class="month-in">
+                  <label>
+                    <span class="day">08</span>
+                    <span class="month">March</span>
+                  </label>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="news-left">
+            <div class="col-bottom">
+              <h6>Come from Australia</h6>
+              <p>I want to pay tribute to the excellent leadership of chairs and co-chairs from three Member States, Australia, Mexico, and Norway. I want to pay tribute to the excellent leadership of chairs and co-chairs from three Member States, Australia, Mexico, and Norway. I want to pay tribute to the excellent leadership of chairs and co-chairs from three Member States, Australia, Mexico, and Norway.</p>
+              <!-- <a href="#" class="more">MORE</a> -->
+            </div>
+          </div>
+      </div>
+      <div class="news-wrap" v-bind:class="{ dsn: isDisplay}" id="news7">
+          <div class="news-right">
+            <div class="col-news-top">
+              <a href="#news3" class="date-in">
+                <img class="img-responsive mix-in" src="../../assets/images/01/pc07.jpg" alt />
+                <div class="month-in">
+                  <label>
+                    <span class="day">08</span>
+                    <span class="month">March</span>
+                  </label>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="news-left">
+            <div class="col-bottom">
+              <h6>Come from Australia</h6>
+              <p>I want to pay tribute to the excellent leadership of chairs and co-chairs from three Member States, Australia, Mexico, and Norway. I want to pay tribute to the excellent leadership of chairs and co-chairs from three Member States, Australia, Mexico, and Norway. I want to pay tribute to the excellent leadership of chairs and co-chairs from three Member States, Australia, Mexico, and Norway.</p>
+              <!-- <a href="#" class="more">MORE</a> -->
+            </div>
+          </div>
+      </div>
+      <div class="news-wrap" v-bind:class="{ dsn: isDisplay}" id="news8">
+          <div class="news-right">
+            <div class="col-news-top">
+              <a href="#news3" class="date-in">
+                <img class="img-responsive mix-in" src="../../assets/images/01/pc08.jpg" alt />
+                <div class="month-in">
+                  <label>
+                    <span class="day">08</span>
+                    <span class="month">March</span>
+                  </label>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="news-left">
+            <div class="col-bottom">
+              <h6>Come from Australia</h6>
+              <p>I want to pay tribute to the excellent leadership of chairs and co-chairs from three Member States, Australia, Mexico, and Norway. I want to pay tribute to the excellent leadership of chairs and co-chairs from three Member States, Australia, Mexico, and Norway. I want to pay tribute to the excellent leadership of chairs and co-chairs from three Member States, Australia, Mexico, and Norway.</p>
+              <!-- <a href="#" class="more">MORE</a> -->
+            </div>
+          </div>
+      </div>
+      <div class="news-wrap" v-bind:class="{ dsn: isDisplay}" id="news9">
+          <div class="news-right">
+            <div class="col-news-top">
+              <a href="#news3" class="date-in">
+                <img class="img-responsive mix-in" src="../../assets/images/01/pc09.jpg" alt />
+                <div class="month-in">
+                  <label>
+                    <span class="day">08</span>
+                    <span class="month">March</span>
+                  </label>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="news-left">
+            <div class="col-bottom">
+              <h6>Come from Australia</h6>
+              <p>I want to pay tribute to the excellent leadership of chairs and co-chairs from three Member States, Australia, Mexico, and Norway. I want to pay tribute to the excellent leadership of chairs and co-chairs from three Member States, Australia, Mexico, and Norway. I want to pay tribute to the excellent leadership of chairs and co-chairs from three Member States, Australia, Mexico, and Norway.</p>
+              <!-- <a href="#" class="more">MORE</a> -->
+            </div>
+          </div>
+      </div>
+      <div class="arr-down iconfont icon-Arrowdown" v-bind:class="{ 'icon-Arrowup': iconfont}" v-on:click="btnHander"></div>
     </div>
   </div>
 </template>
@@ -78,15 +211,23 @@ export default {
   data() {
     return {
       title: "OUR costomer",
-      info: "welcome to our store"
+      info: "welcome to our store",
+      isDisplay: true,
+      iconfont: false
     };
+  },
+  methods: {
+    btnHander() {
+      this.isDisplay = !this.isDisplay;
+      this.iconfont = !this.iconfont;
+    }
   }
 };
 </script>
 <style scoped>
 #news-list {
   padding: 3em 0;
-  background: #f9f9f9;
+  background: #fff;
 }
 .news-title {
   color: #353535;
@@ -187,17 +328,33 @@ a.more:hover {
 }
 @media screen and (max-width: 768px) {
   .news-left {
-  float: none;
-  width: 100%;
-  padding-right: 0;
+    float: none;
+    width: 100%;
+    padding-right: 0;
+  }
+  .news-right {
+    float: none;
+    width: 100%;
+    padding-left: 0;
+  }
+  .col-bottom {
+    padding: 0 0 2em 0;
+  }
 }
-.news-right {
-  float: none;
-  width: 100%;
-  padding-left: 0;
+.arr-down {
+  border: 1px solid #efebeb;
+  height: 30px;
+  font-size: 20px;
+  color: #aaa;
+  text-align: center;
+  margin-top: 20px;
+  border-radius: 2px;
 }
-.col-bottom {
-  padding: 0 0 2em 0;
+.arr-down:hover {
+  cursor: pointer;
+  border-color: #ddd;
 }
+.dsn {
+  display: none;
 }
 </style>

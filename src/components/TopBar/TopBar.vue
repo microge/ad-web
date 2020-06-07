@@ -13,6 +13,40 @@
       </div> -->
     </div>
   </div>
+  <div class="top-concat">
+    <div class="container">
+      <ul>
+        <li>
+          <div class="txt-icon iconfont icon-Call"></div>
+          <div class="txt-fr">
+            <p class="txt-title">Service line</p>
+            <p>+86 13806879161</p>
+          </div>
+        </li>
+        <li>
+          <div class="txt-icon iconfont icon-facebook f24"></div>
+          <div class="txt-fr">
+            <p class="txt-title">Feedback</p>
+            <p>Leave us a message</p>
+          </div>
+        </li>
+        <li>
+          <div class="txt-icon iconfont icon-clouddownload"></div>
+          <div class="txt-fr">
+            <p class="txt-title">Download</p>
+            <p>Download the product brochure</p>
+          </div>
+        </li>
+        <li>
+          <div class="txt-icon iconfont icon-message f24"></div>
+          <div class="txt-fr">
+            <p class="txt-title">E-mail:</p>
+            <p>fuao@fuaocn.com</p>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
 </div> 
 </template>
 <style scoped>
@@ -34,42 +68,86 @@
   background-attachment: local;
   background-size: cover;
   height: 650px;
+  position: relative;
+}
+.top-concat {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  background: rgba(0, 0, 0, 0.6);
+  color: #fff;
+}
+.top-concat li {
+  float: left;
+  width: 25%;
+  padding: 20px 0;
+}
+.top-concat .txt-title {
+  font-size: 16px;
+  font-weight: bold;
+}
+.txt-icon {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: #fff;
+  float: left;
+  margin-right: 10px;
+  color: #ce3232;
+  font-size: 30px;
+  line-height: 60px;
+  text-align: center;
+}
+.f20 {
+  font-size: 24px;
+}
+.txt-fr {
+  float: left;
+}
+.txt-fr {
+  line-height: 30px;
+}
+.top-concat li:hover .txt-icon {
+  background: #ce3232;
+  color: #fff;
 }
 .btn {
-    display: inline-block;
-    padding: 6px 12px;
-    margin-bottom: 0;
-    font-size: 1em;
-    font-weight: 400;
-    line-height: 1.42857143;
-    text-align: center;
-    white-space: nowrap;
-    vertical-align: middle;
-    -ms-touch-action: manipulation;
-    touch-action: manipulation;
-    cursor: pointer;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-    background-image: none;
-    border: 1px solid transparent;
-    border-radius: 4px;
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
 }
 .btn-default {
-    color: #333;
-    background-color: #fff;
-    border-color: #ccc;
+  color: #333;
+  background-color: #fff;
+  border-color: #ccc;
 }
 .section-btn {
-    background: #ce3232;
-    border-radius: 0;
-    border: 0;
-    color: #f9f9f9;
-    font-size: inherit;
-    font-weight: normal;
-    padding: 10px 25px;
-    transition: 0.5s 0.2s;
+  background: #ce3232;
+  border-radius: 0;
+  border: 0;
+  color: #f9f9f9;
+  font-size: inherit;
+  font-weight: normal;
+  padding: 10px 25px;
+  transition: 0.5s 0.2s;
 }
 .col-md-8 {
   width: 66.66666667%;
