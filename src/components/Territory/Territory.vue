@@ -90,7 +90,7 @@ export default {
   background-size: cover;
   position: relative;
   background: #f9f9f9;
-  height: 580px;
+  min-height: 580px;
   padding: 3em 0;
   color: #fff;
 }
@@ -113,6 +113,12 @@ export default {
   margin-top: 60px;
   margin-bottom: 0;
 }
+@media screen and (max-width: 1024px) {
+  .n6-content ul {
+    flex-wrap: wrap
+  }
+}
+
 .n6-content::after {
   content: "";
   clear: both;

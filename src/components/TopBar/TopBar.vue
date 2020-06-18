@@ -63,7 +63,7 @@
 .top-bg {
   width: 100%;
   background-image: url(../../assets/images/01/bg.jpg);
-  background-position: 100% 70%;
+  background-position: 50% 70%;
   background-repeat: no-repeat;
   background-attachment: local;
   background-size: cover;
@@ -75,12 +75,16 @@
   bottom: 0;
   left: 0;
   width: 100%;
-  height: 100px;
+  min-height: 100px;
   background: rgba(0, 0, 0, 0.6);
   color: #fff;
 }
+.top-concat ul {
+  display: flex;
+  justify-content: center;
+}
 .top-concat li {
-  float: left;
+  /* float: left; */
   width: 25%;
   padding: 20px 0;
 }
@@ -94,7 +98,6 @@
   border-radius: 50%;
   background: #fff;
   float: left;
-  margin-right: 10px;
   color: #ce3232;
   font-size: 30px;
   line-height: 60px;
@@ -104,10 +107,14 @@
   font-size: 24px;
 }
 .txt-fr {
+  margin-left: 20px;
   float: left;
 }
-.txt-fr {
+.txt-fr p {
   line-height: 30px;
+}
+.txt-fr p:last-child {
+  line-height: 24px;
 }
 .top-concat li:hover .txt-icon {
   background: #ce3232;
@@ -176,6 +183,9 @@
   height: 64.25px;
   vertical-align: top;
 }
+.top-concat .container {
+  min-height: 100px;
+}
 .logo {
   position: absolute;
   top: -200px;
@@ -186,28 +196,46 @@
   color: #ff5d56;
   text-shadow: 1px 1px 0px #999;
 }
+@media screen and (max-width: 1024px) {
+  .logo {
+    left: 20px;
+    top: -200px;
+  }
+  .col-md-8 {
+    width: 100%;
+  }
+  .top-concat ul {
+    flex-wrap: wrap;
+  }
+  .top-concat li {
+    width: 50%;
+  }
+  .top-concat li .txt-icon{
+    margin-left: 20px;
+  }
+}
 @media screen and (max-width: 768px) {
   .logo {
     top: -200px;
   }
   .col-md-8 {
-  width: 100%;
-}
+    width: 100%;
+  }
 }
 @media screen and (max-width: 411px) {
   .logo {
     top: -180px;
   }
   .col-md-8 {
-  width: 100%;
-}
+    width: 100%;
+  }
 }
 @media screen and (max-width: 375px) {
   .logo {
     top: -180px;
   }
   .col-md-8 {
-  width: 100%;
-}
+    width: 100%;
+  }
 }
 </style>
