@@ -18,7 +18,7 @@ import Product from '@/components/Product/Product.vue';
     <div class="container">
       <ul>
         <li>
-          <a href="tel:86 13806879161">
+          <a href="tel:8613806879161">
             <div class="txt-icon iconfont icon-Call"></div>
             <div class="txt-fr">
               <p class="txt-title">Service line</p>
@@ -138,6 +138,10 @@ export default {
   line-height: 30px;
 }
 .txt-fr p:last-child {
+  line-height: 24px;
+}
+.txt-fr a {
+  color: #fff;
   line-height: 24px;
 }
 .top-concat li:hover .txt-icon {
