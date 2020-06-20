@@ -46,32 +46,27 @@ export default {
         {
           title: "Building interior",
           imgUrl: require("../../assets/images/01/ng01.jpg"),
-          desc:
-            "Total number of personnel: 319 Management personnel: 10 Quality control personnel: 26 sales personnel: 4 production personnel: 245 Purchasing personnel: 7 design personnel: 11 Others: 16"
+          // desc:"Total number of personnel: 319 Management personnel: 10 Quality control personnel: 26 sales personnel: 4 production personnel: 245 Purchasing personnel: 7 design personnel: 11 Others: 16"
         },
         {
           title: "Factory information",
           imgUrl: require("../../assets/images/01/ng02.jpg"),
-          desc:
-            "Factory Address: No. 8, Dazhong Road, Haicheng Industrial Park, Longwan District, Wenzhou city, Zhejiang Province.Type of plant: Lease plant area: 12,000 square meters Validity: 2014-04-29-2051-02-05"
+          // desc:"Factory Address: No. 8, Dazhong Road, Haicheng Industrial Park, Longwan District, Wenzhou city, Zhejiang Province.Type of plant: Lease plant area: 12,000 square meters Validity: 2014-04-29-2051-02-05"
         },
         {
           title: "Building interior",
           imgUrl: require("../../assets/images/01/ng03.jpg"),
-          desc:
-            "Total number of personnel: 319 Management personnel: 10 Quality control personnel: 26 sales personnel: 4 production personnel: 245 Purchasing personnel: 7 design personnel: 11 Others: 16"
+          // desc:"Total number of personnel: 319 Management personnel: 10 Quality control personnel: 26 sales personnel: 4 production personnel: 245 Purchasing personnel: 7 design personnel: 11 Others: 16"
         },
         {
           title: "Building interior",
           imgUrl: require("../../assets/images/01/ng04.jpg"),
-          desc:
-            "Total number of personnel: 319 Management personnel: 10 Quality control personnel: 26 sales personnel: 4 production personnel: 245 Purchasing personnel: 7 design personnel: 11 Others: 16"
+          // desc:"Total number of personnel: 319 Management personnel: 10 Quality control personnel: 26 sales personnel: 4 production personnel: 245 Purchasing personnel: 7 design personnel: 11 Others: 16"
         },
         {
           title: "R&D capability",
           imgUrl: require("../../assets/images/01/ng05.jpg"),
-          desc:
-            "OEM mode: OEM design outsourcing: No annual average number of new models: 100 Average working years of designers: 3 1-5 years Number of development engineers: 11"
+          // desc:"OEM mode: OEM design outsourcing: No annual average number of new models: 100 Average working years of designers: 3 1-5 years Number of development engineers: 11"
         }
       ]
     };
@@ -149,9 +144,7 @@ export default {
   right: 0;
   margin: auto;
   top: 20%;
-}
-.n6-current-caption h4 {
-  font-size: 16px;
+  font-size: 2em;
 }
 .current {
   position: relative;

@@ -1,3 +1,4 @@
+import Product from '@/components/Product/Product.vue';
 <template>
 <div class="top-bg">
   <div class="caption">
@@ -17,38 +18,61 @@
     <div class="container">
       <ul>
         <li>
-          <div class="txt-icon iconfont icon-Call"></div>
-          <div class="txt-fr">
-            <p class="txt-title">Service line</p>
-            <p>+86 13806879161</p>
-          </div>
+          <a href="tel:86 13806879161">
+            <div class="txt-icon iconfont icon-Call"></div>
+            <div class="txt-fr">
+              <p class="txt-title">Service line</p>
+              <p>+86 13806879161</p>
+            </div>
+          </a>
         </li>
         <li>
-          <div class="txt-icon iconfont icon-facebook f24"></div>
-          <div class="txt-fr">
-            <p class="txt-title">Feedback</p>
-            <p>Leave us a message</p>
-          </div>
+          <a href="https://wzfa.en.alibaba.com/?spm=a2700.icbuShop.88.28.3f6d3831yNYFES" target="_blank">
+            <div class="txt-icon iconfont icon-alibaba f24"></div>
+            <div class="txt-fr">
+              <p class="txt-title">Alibaba</p>
+              <p>We are in Alibaba</p>
+            </div>
+          </a>
         </li>
         <li>
-          <div class="txt-icon iconfont icon-clouddownload"></div>
-          <div class="txt-fr">
-            <p class="txt-title">Download</p>
-            <p>Download the product brochure</p>
-          </div>
+          <a href="https://wzfa.en.alibaba.com/productlist.html?spm=a2700.icbuShop.88.30.7d4f18819p3f5P" target="_blank">
+            <div class="txt-icon iconfont icon-zhuangxiushangjia-"></div>
+            <div class="txt-fr">
+              <p class="txt-title">Product</p>
+              <p>Faao's All Products</p>
+            </div>
+          </a>
         </li>
         <li>
-          <div class="txt-icon iconfont icon-message f24"></div>
-          <div class="txt-fr">
-            <p class="txt-title">E-mail:</p>
-            <p>fuao@fuaocn.com</p>
-          </div>
+          <a href="mailto:fuao@fuaocn.com">
+            <div class="txt-icon iconfont icon-message f24"></div>
+            <div class="txt-fr">
+              <p class="txt-title">E-mail:</p>
+              <p>fuao@fuaocn.com</p>
+            </div>
+          </a>
         </li>
       </ul>
     </div>
   </div>
 </div> 
 </template>
+<script>
+export default {
+  name: "TopBar",
+  data() {
+    return {
+    }
+  },
+  methods: {
+    outLook() {
+      this.isDisplay = !this.isDisplay;
+      this.iconfont = !this.iconfont;
+    }
+  }
+}
+</script>
 <style scoped>
 .caption {
   display: flex;
@@ -185,6 +209,9 @@
 }
 .top-concat .container {
   min-height: 100px;
+}
+.top-concat a {
+  color: #fff;
 }
 .logo {
   position: absolute;

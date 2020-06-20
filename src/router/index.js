@@ -8,6 +8,11 @@ Vue.use(VueRouter)
     path: "/",
     name: "index",
     component: Index
+  },
+  {
+    path: "/faao",
+    name: "faao",
+    component: Index
   }
 ]
 

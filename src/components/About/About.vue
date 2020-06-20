@@ -48,7 +48,7 @@
 }
 .section-title h2 {
     color: #353535;
-    font-size: 2em;
+    font-size: 1.6em;
     padding-bottom: 10px;
 }
 p {
