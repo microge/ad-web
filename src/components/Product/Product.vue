@@ -29,51 +29,51 @@ export default {
       content: [
         {
           imgUrl: require("../../assets/images/03/team-image1.jpg"),
-          caption: "big data",
+          caption: "Bath & Shower Faucets FA-3028",
           desc:
-            "This goal through the main line of document partners and other applications, to achieve the construction enterprise process standards controllable project remote management of multiple effective coordination needs.This goal through the main line of document partners and other applications, to achieve the construction enterprise process standards"
+            "hot sale wall mounted bathroom bath rain shower set,Round (customized);Brass main body and zinc alloy handle (customized);Cu≥ 59%;Nickel>8um  Chrome>0.2um;Bath/Shower mixer ≥ 18L/min;0.05Mpa-0.8Mpa;CE, ISO9001:2000;0.1Mpa-0.5Mpa,if>0.5Mpa Installation of a flow reducer is recommended;5 Year quality guarantee."
+        },
+        {
+          imgUrl: require("../../assets/images/03/team-image2.jpg"),
+          caption: "Bath & Shower Faucets FA-3025",
+          desc:
+            "Solid brass modern design croydex bath shower mixer set, Round (customized);Brass main body and zinc alloy handle (customized);Cu≥ 59%;Nickel>8um  Chrome>0.2um;Bath/Shower mixer ≥ 18L/min;0.05Mpa-0.8Mpa;CE, ISO9001:2000;0.1Mpa-0.5Mpa,if>0.5Mpa Installation of a flow reducer is recommended;5 Year quality guarantee."
         },
         {
           imgUrl: require("../../assets/images/03/team-image3.jpg"),
-          caption: "cloud computing",
+          caption: "kitchen faucet FA-9609",
           desc:
-            "This goal through the main line of document partners and other applications, to achieve the construction enterprise process standards controllable project remote management of multiple effective coordination needs.This goal through the main line of document partners and other applications"
-        },
-        {
-          imgUrl: require("../../assets/images/03/team-image2.jpg"),
-          caption: "artificial intelligence (AI)",
-          desc:
-            "This goal through the main line of document partners and other applications, to achieve the construction enterprise process standards controllable project remote management of multiple effective coordination needs.This goal through the main line of document "
+            "SUS304 Single handle  pull out kitchen faucet, Round (customized);Brass main body and zinc alloy handle (customized);Cu≥ 59%;Nickel>8um  Chrome>0.2um;Bath/Shower mixer ≥ 18L/min;0.05Mpa-0.8Mpa;CE, ISO9001:2000;0.1Mpa-0.5Mpa,if>0.5Mpa Installation of a flow reducer is recommended;5 Year quality guarantee."
         },
         {
           imgUrl: require("../../assets/images/03/team-image1.jpg"),
-          caption: "data processing",
+          caption: "Kitchen Faucet FA-5506",
           desc:
-            "This goal through the main line of document partners and other applications, to achieve the construction enterprise process standards controllable project remote management of multiple effective coordination needs.This goal through the main line of document partners and other "
+            "FAAO kitchen brass chrome hot and cold sink mixer taps, Single handle;Brass body, Zinc handle;35mm Ceramic ,500,000 times for using w/o leakage;Chrome;Hot/Cold water mixer;Two flexible hoses for hot and cold water ,rubber gasket,brass fitting;Normal order within 20-30 days."
         },
         {
           imgUrl: require("../../assets/images/03/team-image2.jpg"),
-          caption: "data processing",
+          caption: "Basin Faucet FA-9501",
           desc:
-            "This goal through the main line of document partners and other applications, to achieve the construction enterprise process standards controllable project remote management of multiple effective coordination needs.This goal through the main line of document partners and other applications, to achieve"
+            "FAAO high quality brass china bathroom sanitary ware, Single handle;Brass body, Zinc handle;35mm Ceramic ,500,000 times for using w/o leakage;Chrome;Hot/Cold water mixer;Two flexible hoses for hot and cold water ,rubber gasket,brass fitting;Normal order within 20-30 days."
         },
         {
           imgUrl: require("../../assets/images/03/team-image3.jpg"),
-          caption: "artificial intelligence (AI)",
+          caption: "Bath & Shower Faucets FA-5602",
           desc:
-            "This goal through the main line of document partners and other applications, to achieve the construction enterprise process standards controllable project remote management of multiple effective coordination needs.This goal through the main line of."
+            "Solid brass modern design croydex bath shower mixer set. Round (customized); Brass main body and zinc alloy handle (customized);  0.1Mpa-0.5Mpa,if>0.5Mpa Installation of a flow reducer is recommended;  5 Year quality guarantee"
         },
         {
           imgUrl: require("../../assets/images/03/team-image2.jpg"),
-          caption: "cloud computing",
+          caption: "Basin Faucets FA-7618",
           desc:
-            "This goal through the main line of document partners and other applications, to achieve the construction enterprise process standards controllable project remote management of multiple effective coordination needs.This goal through the main oordination needs."
+            "FAAO classic single lever hot cold wash basin water tap, Single handle; Brass body, Zinc handle; 35mm Ceramic ,500,000 times for using w/o leakage; Normal order within 20-30 days."
         },
         {
           imgUrl: require("../../assets/images/03/team-image1.jpg"),
-          caption: "big data",
+          caption: "Basin Faucet FA-7999",
           desc:
-            "This goal through the main line of document partners and other applications, to achieve the construction enterprise process standards controllable project remote management of multiple effective coordination needs.This goal through the main line of document partners and other applications, to achieve the construction enterprise."
+            "FAAO bathroom chrome single handle basin faucet, Single handle; Brass body, Zinc handle; 35mm Ceramic ,500,000 times for using w/o leakage; Normal order within 20-30 days."
         }
       ]
     };
@@ -146,6 +146,7 @@ export default {
   font-size: 18px;
   color: #ffffff;
   line-height: 25px;
+  padding: 0 10px;
   margin-top: 15px;
   margin-bottom: 10px;
   overflow: hidden;
@@ -160,6 +161,20 @@ export default {
   color: #ffffff;
   line-height: 25px;
   margin: 10px 20px;
+}
+@media screen and (min-width: 1300px) {
+  .n3-content ul {
+    width: 1280px;
+  }
+  .n3-bg {
+    height: 400px;
+  }
+  .n3-masking {
+    height: 400px;
+  }
+  .n3-content ul li {
+    width: 308px;
+  }
 }
 @media screen and (max-width: 1300px) {
   .n3-content ul {

@@ -21,9 +21,7 @@
               style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;"
             >
               <p>
-                123 nulla a cursus rhoncus,
-                <br />augue sem viverra 10870
-                <br />id ultricies sapien
+                (Floor 3, Inside Zhejiang Fuao Sanitary Ware Co., Ltd.) 2nd Industrial Park, <br> Haicheng Street, Wenzhou, Zhejiang, China
               </p>
             </address>
           </div>
@@ -43,11 +41,11 @@
               data-wow-delay="0.4s"
               style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;"
             >
-              <p>090-080-0650 | 090-070-0430</p>
+              <p>+86 0577 85215858</p>
               <p>
-                <a href="mailto:info@company.com">info@company.com</a>
+                <a href="mailto:fuao@fuaocn.com">fuao@fuaocn.com</a>
               </p>
-              <p>LINE: eatery247</p>
+              <p>24-Hour</p>
             </address>
           </div>
         </el-col>
@@ -104,7 +102,7 @@
             data-wow-delay="0.8s"
             style="visibility: visible; animation-delay: 0.8s; animation-name: fadeInUp;"
           >
-            <p>Copyright © 2019 Your Company Name<br />Design: Microge</p>
+            <p>Copyright © 2020 Wenzhou FAAO Sanitary Ware Co., Ltd.<br />Design: Microge</p>
           </div>
         </el-col>
       </el-row>

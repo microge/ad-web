@@ -1,17 +1,18 @@
 <template>
   <div class="index">
+    <!-- <MainTop></MainTop> -->
+    <!-- <Classify></Classify> -->
+    <!-- <Development></Development> -->
+    <!-- <Corporate></Corporate> -->
+    <!-- <Cooperative></Cooperative> -->
     <TopBar></TopBar>
     <About></About>
+    <!-- <Introduce></Introduce> -->
+    <Territory></Territory>
+    <NewsList></NewsList>
     <Product></Product>
     <ProductList></ProductList>
     <TextCar></TextCar>
-    <NewsList></NewsList>
-    <!-- <Classify></Classify> -->
-    <!-- <Introduce></Introduce> -->
-    <!-- <Development></Development> -->
-    <!-- <Corporate></Corporate> -->
-    <!-- <Territory></Territory> -->
-    <!-- <Cooperative></Cooperative> -->
     <BottomBar></BottomBar>
   </div>
 </template>
@@ -29,7 +30,7 @@ import TextCar from '@/components/TextCar/TextCar.vue'
 import NewsList from '@/components/NewsList/NewsList.vue'
 // import Development from '@/components/Development/Development.vue'
 // import Corporate from '@/components/Corporate/Corporate.vue'
-// import Territory from '@/components/Territory/Territory.vue'
+import Territory from '@/components/Territory/Territory.vue'
 // import Cooperative from '@/components/CooperativePartner/CooperativePartner.vue'
 // import FooterBar from '@/components/FooterBar/FooterBar.vue'
 import BottomBar from '@/components/BottomBar/BottomBar.vue'
@@ -48,7 +49,7 @@ export default {
     NewsList,
     // Development,
     // Corporate,
-    // Territory,
+    Territory,
     // Cooperative,
     BottomBar
     // FooterBar

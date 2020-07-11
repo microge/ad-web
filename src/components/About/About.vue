@@ -6,11 +6,10 @@
         <div class="about-info">
           <div class="section-title wow fadeInUp animated" data-wow-delay="0.2s" style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInUp;">
             <h4>Read our story</h4>
-            <h2>We've been Making The Delicious Foods Since 1999</h2>
+            <h2>25 years experience in faucet and bathroom accessory. Over 500,000 deliverables per month. Products are exporting to more than 60 countrys.</h2>
           </div>
           <div class="wow fadeInUp animated" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">
-            <p>Fusce hendrerit malesuada lacinia. Donec semper semper sem vitae malesuada. Proin scelerisque risus et ipsum semper molestie sed in nisi. Ut rhoncus congue lectus, rhoncus venenatis leo malesuada id.</p>
-            <p>Sed elementum vel felis sed scelerisque. In arcu diam, sollicitudin eu nibh ac, posuere tristique magna. You can use this template for your cafe or restaurant website. Please tell your friends about templatemo. Thank you.</p>
+            <p>Elegantly simple, FAAO Bathroom Accessories' graceful curves and contours flow as beautifully as the faucet's water stream, creating a transitional style that spans a variety of decorating trends. </p>
           </div>
         </div>
       </div>
@@ -20,6 +19,7 @@
         </div>
       </div>
     </div>
+    <div class="video-wrap"><video src="../../assets/images/03/girl.mp4" controls="controls"></video></div>
   </div>
 </div>
 </template>
@@ -39,6 +39,14 @@
   float: left;
   width: 50%;
 }
+.video-wrap {
+  background: #000;
+  text-align: center;
+}
+.video-wrap video {
+  width: 100%;
+  height: auto;
+}
 .section-title h4 {
     color: #bfbdbd;
     font-size: 10px;
@@ -49,7 +57,7 @@
 }
 .section-title h2 {
     color: #353535;
-    font-size: 2em;
+    font-size: 1.6em;
     padding-bottom: 10px;
 }
 p {

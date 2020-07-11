@@ -19,8 +19,8 @@
           </div>
           <div class="news-left">
             <div class="col-bottom">
-              <h6>Claritas est etiam</h6>
-              <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem</p>
+              <h6>Come from Germany</h6>
+              <p>In a factory packed with kit from Germany and China, slabs of rubber and bags of carbon black are turned into tyres.In a factory packed with kit from Germany and China, slabs of rubber and bags of carbon black are turned into tyres.In a factory packed with kit from Germany and China, slabs of rubber and bags of carbon black are turned into tyres.In a factory packed with kit from Germany and China, slabs of rubber and bags of carbon black are turned into tyres.</p>
               <!-- <a href="#" class="more">MORE</a> -->
             </div>
           </div>
@@ -41,8 +41,8 @@
           </div>
           <div class="news-left">
             <div class="col-bottom">
-              <h6>Claritas est etiam</h6>
-              <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem</p>
+              <h6>Come from Russia</h6>
+              <p>We have a large number of users from Russia, favored by women. We have a large number of users from Russia, favored by women. We have a large number of users from Russia, favored by women. We have a large number of users from Russia, favored by women. users from Russia, favored by women. We have a large number of users from Russia, favored by women. We have a large number of users from Russia, favored by women.</p>
               <!-- <a href="#" class="more">MORE</a> -->
             </div>
           </div>
@@ -63,12 +63,145 @@
           </div>
           <div class="news-left">
             <div class="col-bottom">
-              <h6>Claritas est etiam</h6>
-              <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem</p>
+              <h6>Come from Australia</h6>
+              <p>I want to pay tribute to the excellent leadership of chairs and co-chairs from three Member States, Australia, Mexico, and Norway. I want to pay tribute to the excellent leadership of chairs and co-chairs from three Member States, Australia, Mexico, and Norway. I want to pay tribute to the excellent leadership of chairs and co-chairs from three Member States, Australia, Mexico, and Norway.</p>
               <!-- <a href="#" class="more">MORE</a> -->
             </div>
           </div>
       </div>
+      <div class="news-wrap" v-bind:class="{ dsn: isDisplay}" id="news4">
+          <div class="news-right">
+            <div class="col-news-top">
+              <a href="#news3" class="date-in">
+                <img class="img-responsive mix-in" src="../../assets/images/03/pc.jpg" alt />
+                <div class="month-in">
+                  <label>
+                    <span class="day">08</span>
+                    <span class="month">March</span>
+                  </label>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="news-left">
+            <div class="col-bottom">
+              <h6>Come from Australia</h6>
+              <p>I want to pay tribute to the excellent leadership of chairs and co-chairs from three Member States, Australia, Mexico, and Norway. I want to pay tribute to the excellent leadership of chairs and co-chairs from three Member States, Australia, Mexico, and Norway. I want to pay tribute to the excellent leadership of chairs and co-chairs from three Member States, Australia, Mexico, and Norway.</p>
+              <!-- <a href="#" class="more">MORE</a> -->
+            </div>
+          </div>
+      </div>
+      <div class="news-wrap" v-bind:class="{ dsn: isDisplay}" id="news5">
+          <div class="news-right">
+            <div class="col-news-top">
+              <a href="#news3" class="date-in">
+                <img class="img-responsive mix-in" src="../../assets/images/03/pc1.jpg" alt />
+                <div class="month-in">
+                  <label>
+                    <span class="day">08</span>
+                    <span class="month">March</span>
+                  </label>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="news-left">
+            <div class="col-bottom">
+              <h6>Come from Australia</h6>
+              <p>I want to pay tribute to the excellent leadership of chairs and co-chairs from three Member States, Australia, Mexico, and Norway. I want to pay tribute to the excellent leadership of chairs and co-chairs from three Member States, Australia, Mexico, and Norway. I want to pay tribute to the excellent leadership of chairs and co-chairs from three Member States, Australia, Mexico, and Norway.</p>
+              <!-- <a href="#" class="more">MORE</a> -->
+            </div>
+          </div>
+      </div>
+      <div class="news-wrap" v-bind:class="{ dsn: isDisplay}" id="news6">
+          <div class="news-right">
+            <div class="col-news-top">
+              <a href="#news3" class="date-in">
+                <img class="img-responsive mix-in" src="../../assets/images/03/pc2.jpg" alt />
+                <div class="month-in">
+                  <label>
+                    <span class="day">08</span>
+                    <span class="month">March</span>
+                  </label>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="news-left">
+            <div class="col-bottom">
+              <h6>Come from Australia</h6>
+              <p>I want to pay tribute to the excellent leadership of chairs and co-chairs from three Member States, Australia, Mexico, and Norway. I want to pay tribute to the excellent leadership of chairs and co-chairs from three Member States, Australia, Mexico, and Norway. I want to pay tribute to the excellent leadership of chairs and co-chairs from three Member States, Australia, Mexico, and Norway.</p>
+              <!-- <a href="#" class="more">MORE</a> -->
+            </div>
+          </div>
+      </div>
+      <div class="news-wrap" v-bind:class="{ dsn: isDisplay}" id="news7">
+          <div class="news-right">
+            <div class="col-news-top">
+              <a href="#news3" class="date-in">
+                <img class="img-responsive mix-in" src="../../assets/images/03/pc.jpg" alt />
+                <div class="month-in">
+                  <label>
+                    <span class="day">08</span>
+                    <span class="month">March</span>
+                  </label>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="news-left">
+            <div class="col-bottom">
+              <h6>Come from Australia</h6>
+              <p>I want to pay tribute to the excellent leadership of chairs and co-chairs from three Member States, Australia, Mexico, and Norway. I want to pay tribute to the excellent leadership of chairs and co-chairs from three Member States, Australia, Mexico, and Norway. I want to pay tribute to the excellent leadership of chairs and co-chairs from three Member States, Australia, Mexico, and Norway.</p>
+              <!-- <a href="#" class="more">MORE</a> -->
+            </div>
+          </div>
+      </div>
+      <div class="news-wrap" v-bind:class="{ dsn: isDisplay}" id="news8">
+          <div class="news-right">
+            <div class="col-news-top">
+              <a href="#news3" class="date-in">
+                <img class="img-responsive mix-in" src="../../assets/images/03/pc2.jpg" alt />
+                <div class="month-in">
+                  <label>
+                    <span class="day">08</span>
+                    <span class="month">March</span>
+                  </label>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="news-left">
+            <div class="col-bottom">
+              <h6>Come from Australia</h6>
+              <p>I want to pay tribute to the excellent leadership of chairs and co-chairs from three Member States, Australia, Mexico, and Norway. I want to pay tribute to the excellent leadership of chairs and co-chairs from three Member States, Australia, Mexico, and Norway. I want to pay tribute to the excellent leadership of chairs and co-chairs from three Member States, Australia, Mexico, and Norway.</p>
+              <!-- <a href="#" class="more">MORE</a> -->
+            </div>
+          </div>
+      </div>
+      <div class="news-wrap" v-bind:class="{ dsn: isDisplay}" id="news9">
+          <div class="news-right">
+            <div class="col-news-top">
+              <a href="#news3" class="date-in">
+                <img class="img-responsive mix-in" src="../../assets/images/03/pc1.jpg" alt />
+                <div class="month-in">
+                  <label>
+                    <span class="day">08</span>
+                    <span class="month">March</span>
+                  </label>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="news-left">
+            <div class="col-bottom">
+              <h6>Come from Australia</h6>
+              <p>I want to pay tribute to the excellent leadership of chairs and co-chairs from three Member States, Australia, Mexico, and Norway. I want to pay tribute to the excellent leadership of chairs and co-chairs from three Member States, Australia, Mexico, and Norway. I want to pay tribute to the excellent leadership of chairs and co-chairs from three Member States, Australia, Mexico, and Norway.</p>
+              <!-- <a href="#" class="more">MORE</a> -->
+            </div>
+          </div>
+      </div>
+      <div class="arr-down iconfont icon-Arrowdown" v-bind:class="{ 'icon-Arrowup': iconfont}" v-on:click="btnHander"></div>
     </div>
   </div>
 </template>
@@ -77,16 +210,24 @@ export default {
   name: "NewsList",
   data() {
     return {
-      title: "News",
-      info: "Since 1999"
+      title: "OUR costomer",
+      info: "welcome to our store",
+      isDisplay: true,
+      iconfont: false
     };
+  },
+  methods: {
+    btnHander() {
+      this.isDisplay = !this.isDisplay;
+      this.iconfont = !this.iconfont;
+    }
   }
 };
 </script>
 <style scoped>
 #news-list {
   padding: 3em 0;
-  background: #f9f9f9;
+  background: #fff;
 }
 .news-title {
   color: #353535;
@@ -187,17 +328,33 @@ a.more:hover {
 }
 @media screen and (max-width: 768px) {
   .news-left {
-  float: none;
-  width: 100%;
-  padding-right: 0;
+    float: none;
+    width: 100%;
+    padding-right: 0;
+  }
+  .news-right {
+    float: none;
+    width: 100%;
+    padding-left: 0;
+  }
+  .col-bottom {
+    padding: 0 0 2em 0;
+  }
 }
-.news-right {
-  float: none;
-  width: 100%;
-  padding-left: 0;
+.arr-down {
+  border: 1px solid #efebeb;
+  height: 30px;
+  font-size: 20px;
+  color: #aaa;
+  text-align: center;
+  margin-top: 20px;
+  border-radius: 2px;
 }
-.col-bottom {
-  padding: 0 0 2em 0;
+.arr-down:hover {
+  cursor: pointer;
+  border-color: #ddd;
 }
+.dsn {
+  display: none;
 }
 </style>
